@@ -3,7 +3,7 @@ fenetre=tk.Tk()
 fenetre.title("Testing")
 
 def cliqueCalculer():
-    lblReponse1['text'] = "Thank You"
+    lblReponse1['text'] = "Hey Stop Clicking!"
 
 lblReponse1 = tk.Label(fenetre)
 lblReponse1["text"] = "Hello There."
